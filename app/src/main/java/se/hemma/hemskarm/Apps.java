@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.TypedValue;
@@ -202,7 +201,7 @@ final class Apps {
             } else if (symbol != null) {
                 TextView sym = new TextView(c);
                 sym.setText(symbol);
-                sym.setTextColor(Color.WHITE);
+                sym.setTextColor(c.getColor(R.color.on_panel));
                 sym.setTextSize(TypedValue.COMPLEX_UNIT_SP, 26);
                 sym.setGravity(Gravity.CENTER);
                 col.addView(sym);
@@ -214,7 +213,7 @@ final class Apps {
             }
             TextView tv = new TextView(c);
             tv.setText(label);
-            tv.setTextColor(c.getColor(R.color.text));
+            tv.setTextColor(c.getColor(R.color.on_panel));
             tv.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
             tv.setGravity(Gravity.CENTER);
             tv.setSingleLine(true);

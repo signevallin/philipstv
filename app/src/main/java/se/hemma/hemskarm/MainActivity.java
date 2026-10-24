@@ -292,7 +292,7 @@ public class MainActivity extends Activity {
 
         TextView t = new TextView(this);
         t.setText(time);
-        t.setTextColor(getColor(R.color.text));
+        t.setTextColor(getColor(R.color.on_panel));
         t.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
         t.setTextSize(TypedValue.COMPLEX_UNIT_SP, large ? 20 : 17);
         t.setSingleLine(true);
@@ -301,7 +301,7 @@ public class MainActivity extends Activity {
 
         TextView name = new TextView(this);
         name.setText(title);
-        name.setTextColor(getColor(R.color.text));
+        name.setTextColor(getColor(R.color.on_panel));
         name.setTextSize(TypedValue.COMPLEX_UNIT_SP, large ? 21 : 17);
         name.setSingleLine(true);
         name.setEllipsize(TextUtils.TruncateAt.END);
@@ -316,7 +316,7 @@ public class MainActivity extends Activity {
         String text = day.equals(today.plusDays(1)) ? "Imorgon · " + capitalize(day.format(DateTimeFormatter.ofPattern("EEEE", SV)))
                 : capitalize(day.format(DAY));
         t.setText(text);
-        t.setTextColor(getColor(R.color.accent));
+        t.setTextColor(getColor(R.color.on_panel_dim));
         t.setTypeface(Typeface.create("sans-serif-medium", Typeface.NORMAL));
         t.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
         t.setPadding(0, Apps.dp(this, firstHeader ? 0 : 8), 0, Apps.dp(this, 2));
@@ -326,7 +326,7 @@ public class MainActivity extends Activity {
     private View note(String text) {
         TextView t = new TextView(this);
         t.setText(text);
-        t.setTextColor(getColor(R.color.text_dim));
+        t.setTextColor(getColor(R.color.on_panel_dim));
         t.setTextSize(TypedValue.COMPLEX_UNIT_SP, 17);
         t.setPadding(0, Apps.dp(this, 4), 0, Apps.dp(this, 4));
         return t;

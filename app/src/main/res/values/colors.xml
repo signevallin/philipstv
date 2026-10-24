@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg_top">#0B1630</color>
-    <color name="bg_bottom">#16295A</color>
-    <color name="panel">#1AFFFFFF</color>
-    <color name="panel_stroke">#14FFFFFF</color>
-    <color name="tile">#1FFFFFFF</color>
-    <color name="tile_focus">#33FFFFFF</color>
-    <color name="text">#FFFFFF</color>
-    <color name="text_dim">#B3C2E3</color>
-    <color name="text_faint">#7085B3</color>
-    <color name="accent">#FFC861</color>
+    <!-- Palett: burgundy, cherry blossom, moss, sky blue, sand -->
+    <color name="bg_top">#3E0411</color>
+    <color name="bg_bottom">#3E0411</color>
+    <color name="panel">#B9C9CF</color>
+    <color name="panel_stroke">#00000000</color>
+    <color name="tile">#B9C9CF</color>
+    <color name="tile_focus">#CAD7DC</color>
+    <color name="focus_stroke">#EBE2DA</color>
+    <color name="text">#EBE2DA</color>
+    <color name="text_dim">#B9C9CF</color>
+    <color name="text_faint">#6B7C83</color>
+    <color name="accent">#DFB3B5</color>
+    <!-- Text på de ljusblå rutorna -->
+    <color name="on_panel">#4E0616</color>
+    <color name="on_panel_dim">#5C5630</color>
 </resources>

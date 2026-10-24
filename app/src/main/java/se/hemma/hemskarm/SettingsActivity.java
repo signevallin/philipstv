@@ -174,7 +174,7 @@ public class SettingsActivity extends Activity {
         EditText e = new EditText(this);
         e.setText(value);
         e.setHint(hint);
-        e.setTextColor(getColor(R.color.text));
+        e.setTextColor(getColor(R.color.on_panel));
         e.setHintTextColor(getColor(R.color.text_faint));
         e.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
         e.setBackgroundResource(R.drawable.field_bg);
@@ -197,7 +197,7 @@ public class SettingsActivity extends Activity {
         b.setText(s);
         b.setAllCaps(false);
         b.setTextSize(TypedValue.COMPLEX_UNIT_SP, 17);
-        b.setTextColor(getColor(R.color.text));
+        b.setTextColor(getColor(R.color.on_panel));
         b.setBackgroundResource(R.drawable.button_bg);
         int ph = Apps.dp(this, 26), pv = Apps.dp(this, 12);
         b.setPadding(ph, pv, ph, pv);
