@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hemskärm</string>
+    <string name="today">IDAG</string>
+    <string name="upcoming">KOMMANDE</string>
+    <string name="all_apps">Alla appar</string>
+    <string name="settings">Inställningar</string>
+    <string name="tv_settings">TV-inställningar</string>
+    <string name="save">Spara</string>
+    <string name="saved">Sparat ✓</string>
+    <string name="loading">Hämtar kalendern…</string>
+    <string name="nothing_today">Inget inplanerat idag</string>
+    <string name="nothing_upcoming">Inget inplanerat den närmaste veckan</string>
+    <string name="calendar_missing">Lägg in kalenderlänken under ⚙ Inställningar längst ner till höger.</string>
+    <string name="calendar_error">Kunde inte hämta kalendern just nu – försöker igen snart.</string>
+    <string name="weather_missing">Välj ort under ⚙ för väder</string>
+    <string name="looking_up_place">Slår upp orten…</string>
+    <string name="label_name">Namn i hälsningen</string>
+    <string name="hint_name">t.ex. Signe och Anton</string>
+    <string name="label_place">Ort för vädret</string>
+    <string name="hint_place">t.ex. Hässelby</string>
+    <string name="label_ics">Kalenderlänk (en per rad om ni har flera)</string>
+    <string name="hint_ics">https://calendar.google.com/calendar/ical/…/basic.ics</string>
+    <string name="ics_help">Google Kalender på datorn → kalenderns inställningar → Integrera kalender → \"Hemlig adress i iCal-format\". Tips: skriv med mobilen via Google TV-appen eller använd adb-kommandot i instruktionerna.</string>
+</resources>
