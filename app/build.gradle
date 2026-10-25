@@ -14,7 +14,20 @@ android {
         versionName '1.1'
     }
 
+    // Fast nyckel så att varje bygge från GitHub kan installeras ovanpå det förra.
+    signingConfigs {
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
             minifyEnabled false
         }
